@@ -1,0 +1,16 @@
+let country = "Greece";
+let continent = "Europe";
+let population = 10372335;
+let isIsland = false;
+let language;
+
+console.log("My country is ");
+console.log(country);
+console.log("Located in the continent of ");
+console.log(continent);
+console.log("With a population of ");
+console.log(population);
+console.log("And it's considered an Island ");
+console.log(isIsland);
+console.log("With the language of ");
+console.log(language);

@@ -1,0 +1,31 @@
+//If your country split in half, and each half would contain half the population, then how many people would live in each half?
+//Increase the population of your country by 1 and log the result to the console.
+//Finland has a population of 6 million. Does your country have more people than Finland?
+//The average population of a country is 33 million people. Does you country have less people than the average country?
+//Based on the variables you created, create a new variable description which contains a string with this format: 
+//                                          'Portugal is in Europe, and its 11 million people speak portuguese'.
+
+const country = "Greece";
+const continent = "Europe";
+let population = 10372335;
+let isIsland = false;
+let language;
+language = "Greek"
+
+// 1
+let halfPopulation = population / 2;
+console.log("Half of Greece's population is " + halfPopulation);
+
+// 2
+halfPopulation++;
+console.log("New population is " + halfPopulation);
+
+//3
+console.log("My country has more people than Finland right? " + (population > 6000000));
+
+//4
+console.log("Greece has less people than the average country right? " + (population < 33000000));
+
+//5
+const description = country + " is in " + continent + ", and its " + (population / 1000000) + " million people speak " + language;
+console.log(description);
